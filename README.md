@@ -2,9 +2,9 @@
 
 ---
 
-## Project  Instructions
 
-### Exercise 1
+
+### Task5 part1
 
 1. Download the [starter code](https://github.com/udacity/cand-c2-project).
 2. In the main.tf file write the code to provision
@@ -15,10 +15,17 @@
    * 2 m4.large EC2 instances named Udacity M4
 3. Run Terraform. 
 4. Take a screenshot of the 6 EC2 instances in the AWS console and save it as `Terraform_1_1`. 
-5. Use Terraform to  delete the 2 m4.large instances 
-6. Take an updated screenshot of the AWS console showing only the 4 t2.micro instances and save it as `Terraform_1_2`
+   ![](./diag/Terraform_1_1.png)
 
-### Exercise 2
+
+
+
+5. Use Terraform to  delete the 2 m4.large instances 
+   ![](./diag/2022-01-02-22-25-16.png)
+6. Take an updated screenshot of the AWS console showing only the 4 t2.micro instances and save it as `Terraform_1_2`
+   ![](./diag/Terraform_1_2.png)
+
+### Task5 part2
 
 1. In the  Exercise_2 folder, write the code to deploy an AWS Lambda Function using Terraform. Your code should include:
 
@@ -28,4 +35,13 @@
    * A variables.tf file with an AWS region
   
 2. Take a screenshot of the EC2 instances page
+   ![](./diag/Terraform_2_1.png)
 3. Take a screenshot of the VPC page 
+   ![](./diag/Terraform_2_2.png)
+
+
+
+Task 6: Destroy the Infrastructure using Terraform and prepare for submission    
+Destroy all running provisioned infrastructure using Terraform so as not to incur unwanted charges.      
+Take a screenshot of the EC2 instances page and label it    
+   ![](./diag/Terraform_destroyed.png)

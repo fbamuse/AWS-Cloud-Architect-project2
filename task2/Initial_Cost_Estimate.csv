@@ -1,0 +1,16 @@
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+initial,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,482.85,5794.2,USD,Number of NAT Gateways (1)
+initial,US East (N. Virginia),,Amazon Route 53,0,641.2,7694.4,USD,"Hosted Zones (2), Basic Checks Within AWS (50)"
+initial,US East (N. Virginia),,Amazon CloudFront,0,945,11340,USD,"Data transfer out to internet (4000 GB per month), Data transfer out to origin (4000 GB per month), Number of requests (HTTPS) ( per month), Data transfer out to internet (5000 GB per month), Data transfer out to origin (5000 GB per month)"
+initial,US East (N. Virginia),,S3 Standard,0,116.4,1396.8,USD,S3 Standard storage (5000 GB per month)
+initial,US East (N. Virginia),,Amazon EC2,0,392.15,4705.8,USD,"Operating system (Linux with SQL Server Web), Quantity (2), Pricing strategy (On-Demand Instances), Storage amount (1 TB), Instance type (t2.large)"
+initial,US East (N. Virginia),,Application Load Balancer,0,600.43,7205.16,USD,Number of Application Load Balancers (1)
+initial,US East (N. Virginia),,Amazon RDS for PostgreSQL,0,4623.4,55480.8,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (5000 GB per month), Nodes (2), Instance Type (db.t2.large), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (OnDemand), Additional backup storage (20000 GB)"
+initial,US East (N. Virginia),,Network Load Balancer,0,454.43,5453.16,USD,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (100 GB per hour)"
+initial,US East (N. Virginia),,Amazon EC2,0,378.47,4541.64,USD,"Operating system (Red Hat Enterprise Linux), Quantity (2), Pricing strategy (On-Demand Instances), Storage amount (1000 GB), Instance type (t2.large)"
+,,,,,8634.33,,,
+,,,,,,,,
+,,,,,,,,
+Acknowledgement,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
+https://calculator.aws/#/estimate?id=10c9808cc755b9caa91968a4f76051514f069d74,,,,,,,,

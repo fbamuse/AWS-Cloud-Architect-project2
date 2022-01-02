@@ -1,0 +1,19 @@
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+reduce,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,482.85,5794.2,USD,Number of NAT Gateways (1)
+reduce,US East (N. Virginia),,Amazon Route 53,0,641.2,7694.4,USD,"Hosted Zones (2), Basic Checks Within AWS (50)"
+reduce,US East (N. Virginia),,Amazon CloudFront,0,420,5040,USD,"Data transfer out to internet (4000 GB per month), Data transfer out to origin (4000 GB per month), Number of requests (HTTPS) ( per month)"
+reduce,US East (N. Virginia),,S3 Standard,0,116.4,1396.8,USD,S3 Standard storage (5000 GB per month)
+reduce,US East (N. Virginia),,Amazon EC2,1144,300.14,4745.68,USD,"Operating system (Linux with SQL Server Web), Quantity (2), Pricing strategy (Convertible Reserved Instances 1 Year Partial Upfront), Storage amount (1 TB), Instance type (t2.large)"
+reduce,US East (N. Virginia),,Application Load Balancer,0,600.43,7205.16,USD,Number of Application Load Balancers (1)
+reduce,US East (N. Virginia),,Amazon RDS for PostgreSQL,816,3125.92,38327.04,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (5000 GB per month), Nodes (2), Instance Type (db.t2.large), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Single-AZ), Pricing Model (Reserved), Lease Offering Term (1yr), Purchase Option (Partial Upfront), Additional backup storage (20000 GB)"
+reduce,US East (N. Virginia),,Network Load Balancer,0,454.43,5453.16,USD,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (100 GB per hour)"
+reduce,US East (N. Virginia),,Amazon EC2,480,327.6,4411.2,USD,"Operating system (Red Hat Enterprise Linux), Quantity (2), Pricing strategy (Standard Reserved Instances 1 Year Partial Upfront), Storage amount (1000 GB), Instance type (t2.large)"
+,,,,,6468.97,,,
+,,,,,,,,
+,,,,,,,,
+Acknowledgement,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
+https://calculator.aws/#/estimate?id=e7a5c5938affff9d72f49719bacb31e10fd6ac27,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+"Maintain the specifications of RDS and EC2, select the option of 1-year reservation and reduce the monthly cost",,,,,,,,

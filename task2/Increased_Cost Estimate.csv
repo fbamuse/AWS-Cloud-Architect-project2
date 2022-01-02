@@ -1,0 +1,25 @@
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+increase,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,482.85,5794.2,USD,Number of NAT Gateways (1)
+increase,US East (N. Virginia),,Amazon Route 53,0,641.2,7694.4,USD,"Hosted Zones (2), Basic Checks Within AWS (50)"
+increase,US East (N. Virginia),,Amazon CloudFront,0,2127,25524,USD,"Data transfer out to internet (5000 GB per month), Data transfer out to origin (5000 GB per month), Data transfer out to internet (1000 GB per month), Data transfer out to origin (1000 GB per month), Data transfer out to internet (1000 GB per month), Data transfer out to origin (1000 GB per month), Data transfer out to internet (1000 GB per month), Data transfer out to origin (1000 GB per month), Data transfer out to internet (1000 GB per month), Data transfer out to origin (1000 GB per month), Data transfer out to internet (1000 GB per month), Data transfer out to origin (1000 GB per month), Data transfer out to internet (1000 GB per month), Data transfer out to origin (1000 GB per month), Data transfer out to internet (1000 GB per month), Data transfer out to origin (1000 GB per month), Data transfer out to internet (1000 GB per month), Data transfer out to origin (1000 GB per month), Data transfer out to internet (1000 GB per month), Data transfer out to origin (1000 GB per month)"
+increase,US East (N. Virginia),,S3 Standard,0,1151.4,13816.8,USD,S3 Standard storage (50000 GB per month)
+increase,US East (N. Virginia),,Amazon EC2,0,1194.41,14332.92,USD,"Operating system (Linux with SQL Server Web), Quantity (3), Pricing strategy (On-Demand Instances), Storage amount (1 TB), Instance type (t2.2xlarge)"
+increase,US East (N. Virginia),,Application Load Balancer,0,600.43,7205.16,USD,Number of Application Load Balancers (1)
+increase,US East (N. Virginia),,Amazon RDS for PostgreSQL,0,11043.6,132523.2,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (10000 GB per month), Nodes (2), Instance Type (db.t2.2xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (OnDemand), Additional backup storage (50000 GB)"
+increase,US East (N. Virginia),,Network Load Balancer,0,454.43,5453.16,USD,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (100 GB per hour)"
+increase,US East (N. Virginia),,Amazon EC2,0,1178.1,14137.2,USD,"Operating system (Red Hat Enterprise Linux), Quantity (3), Pricing strategy (On-Demand Instances), Storage amount (1000 GB), Instance type (t2.2xlarge)"
+,,,,,18873.42,,,
+,,,,,,,,
+,,,,,,,,
+Acknowledgement,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
+https://calculator.aws/#/estimate?id=cf4ffbf6aaa5bcc5a79a9970af96f3ab16af29d1,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Install Cloudfront in each region to improve performance.,,,,,,,,
+,,,,,,,,
+Increase the capacity of S3 and make it redundant to increase the frequency of backup.,,,,,,,,
+,,,,,,,,
+Increase EC2 instances from t2.large to t2.2xlarge and increase the number of instances to improve performance and redundancy.,,,,,,,,
+,,,,,,,,
+Enhance RDS instances from t2.large to t2.2xlarge to improve performance,,,,,,,,
